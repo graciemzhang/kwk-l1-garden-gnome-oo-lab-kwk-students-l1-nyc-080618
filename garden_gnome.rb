@@ -2,7 +2,9 @@
 
 class GardenGnome
   
-  def initialize(gluten_allergy)
+  def initialize(name, age, gluten_allergy)
+    @name = name
+    @age = age
     @personality = "evil"
     @hat_color - "red"
     @gluten_allergy = gluten_allergy
