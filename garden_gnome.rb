@@ -42,7 +42,7 @@ class GardenGnome
     return @hat_color
   end
   
-  def hat_color(color_new)
+  def hat_color=(color_new)
     @hat_color = color_new
   end
   
