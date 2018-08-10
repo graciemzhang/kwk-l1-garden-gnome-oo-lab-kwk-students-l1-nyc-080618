@@ -2,12 +2,12 @@
 
 class GardenGnome
   
-  def initialize(name, age, hat_color = "red", gluten_allergy)
-    @name = name
-    @age = age
+  def initialize(hat_color = "red")
+    # @name = name
+    # @age = age
     @personality = "evil"
     @hat_color = hat_color
-    @gluten_allergy = gluten_allergy
+    # @gluten_allergy = gluten_allergy
   end
   
   def name 
@@ -59,5 +59,5 @@ class GardenGnome
   end
 end
 
-test_gnome = GardenGnome.new("gracie", 10, "gluten")
+test_gnome = GardenGnome.new
   
