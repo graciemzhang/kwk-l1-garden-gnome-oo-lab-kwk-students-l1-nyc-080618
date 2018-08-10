@@ -6,7 +6,7 @@ class GardenGnome
     @name = name
     @age = age
     @personality = "evil"
-    @hat_color - hat_color
+    @hat_color = hat_color
     @gluten_allergy = gluten_allergy
   end
   
