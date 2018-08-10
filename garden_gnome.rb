@@ -59,5 +59,5 @@ class GardenGnome
   end
 end
 
-
+test_gnome = GardenGnome.new("gracie", 10, "gluten")
   
